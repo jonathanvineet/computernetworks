@@ -22,8 +22,7 @@ class ex10crc {
 
     static boolean check(String data, String gen) {
         String remainder = divide(data, gen);
-        return !remainder.contains("1"
-        );
+        return !remainder.contains("1");
     }
 
     public static void main(String[] a) {
