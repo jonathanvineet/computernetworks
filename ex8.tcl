@@ -1,3 +1,4 @@
+# Simulation of Congestion Control Algorithms using NS2
 set ns [new Simulator]
 set tr [open out.tr w]
 $ns trace-all $tr
